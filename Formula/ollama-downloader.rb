@@ -5,8 +5,8 @@ class OllamaDownloader < Formula
   homepage "https://github.com/anirbanbasu/ollama-downloader"
 
   url "https://github.com/anirbanbasu/ollama-downloader.git",
-      tag:      "v.0.2.0.post1",
-      revision: "7f1089b50d50a6b6447471ab5e82b172a1b7e413"
+      tag:      "v.0.2.1",
+      revision: "75a3cfde36e8befb60b25c523eba502b81cab0fa"
   license "MIT"
 
   depends_on "rust" => :build
