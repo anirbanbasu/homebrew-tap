@@ -4,9 +4,9 @@ class OllamaDownloader < Formula
   desc "Library and Hugging Face model downloader for Ollama"
   homepage "https://github.com/anirbanbasu/ollama-downloader"
 
-  url "https://github.com/anirbanbasu/ollama-downloader/archive/refs/tags/v.0.2.2.tar.gz",
-      tag:      "v.0.2.1",
-      revision: "75a3cfde36e8befb60b25c523eba502b81cab0fa"
+  url "https://github.com/anirbanbasu/ollama-downloader.git",
+      tag:      "v.0.2.2",
+      revision: "48416a39ac530b2e2ab7a2a86ef37268c8ef7735"
   license "MIT"
 
   depends_on "rust" => :build
