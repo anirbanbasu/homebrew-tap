@@ -4,7 +4,7 @@ class OllamaDownloader < Formula
   desc "Library and Hugging Face model downloader for Ollama"
   homepage "https://github.com/anirbanbasu/ollama-downloader"
 
-  url "https://github.com/anirbanbasu/ollama-downloader.git",
+  url "https://github.com/anirbanbasu/ollama-downloader/archive/refs/tags/v.0.2.2.tar.gz",
       tag:      "v.0.2.1",
       revision: "75a3cfde36e8befb60b25c523eba502b81cab0fa"
   license "MIT"
@@ -17,7 +17,7 @@ class OllamaDownloader < Formula
 
   resource "annotated-types" do
     url "https://files.pythonhosted.org/packages/ee/67/531ea369ba64dcff5ec9c3402f9f51bf748cec26dde048a2f973a4eea7f5/annotated_types-0.7.0.tar.gz"
-    sha256 "aff07c09a53a08bc8cfccb9c85b05f1aa9a2a6f23728d790723543408344ce89"
+    sha256 "4a82a5dc286624ef9baee2b42f4c340f4af3244116c14ba545fd931201fcdca9"
   end
 
   resource "anyio" do
