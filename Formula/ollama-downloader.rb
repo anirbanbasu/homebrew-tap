@@ -9,6 +9,8 @@ class OllamaDownloader < Formula
       revision: "48416a39ac530b2e2ab7a2a86ef37268c8ef7735"
   license "MIT"
 
+  bottle :disable, "No bottle available for this tap"
+
   depends_on "rust" => :build
   depends_on "python@3.12"
 
