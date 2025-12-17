@@ -7,6 +7,9 @@ class OllamaDownloader < Formula
   sha256 "4a82a5dc286624ef9baee2b42f4c340f4af3244116c14ba545fd931201fcdca9"
   license "MIT"
 
+  # Disable bottle usage to ensure installation from source from this tap
+  bottle :unneeded
+
   depends_on "rust" => :build
   depends_on "python@3.14"
 
