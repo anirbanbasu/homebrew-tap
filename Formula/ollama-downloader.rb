@@ -148,6 +148,11 @@ class OllamaDownloader < Formula
     sha256 "ba561c48a67c5958007083d386c3295464928b01faa735ab8547c5692e87f464"
   end
 
+  # Prevent Homebrew from attempting to fetch bottles from homebrew/core
+  def pour_bottle?
+    false
+  end
+
   def install
     virtualenv_install_with_resources
   end
