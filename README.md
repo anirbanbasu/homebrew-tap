@@ -8,16 +8,16 @@ This tap contains formulae that can be installed on macOS and Linux through [the
 
 ## How do I install these formulae?
 
-`brew install anirbanbasu/tap/<formula>`
+Run `brew install anirbanbasu/tap/<formula>`. If that does not work, then run `brew install --build-from-source anirbanbasu/tap/<formula>`.
 
-Or `brew tap anirbanbasu/tap` and then `brew install <formula>`.
+<!-- Or `brew tap anirbanbasu/tap` and then `brew install <formula>`.
 
 Or, in a `brew bundle` `Brewfile`:
 
 ```ruby
 tap "anirbanbasu/tap"
 brew "<formula>"
-```
+``` -->
 
 ## Documentation
 
