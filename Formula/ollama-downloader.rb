@@ -1,19 +1,13 @@
 class OllamaDownloader < Formula
   include Language::Python::Virtualenv
 
-  desc "Library and Hugging Face model downloader for Ollama"
-  homepage "https://github.com/anirbanbasu/ollama-downloader"
-
-  url "https://github.com/anirbanbasu/ollama-downloader.git",
-      tag:      "v.0.2.2",
-      revision: "48416a39ac530b2e2ab7a2a86ef37268c8ef7735"
+  desc "A library and Hugging Face model downloader for Ollama."
+  homepage "https://pypi.org/project/ollama-downloader/"
+  url "https://github.com/anirbanbasu/ollama-downloader/archive/refs/tags/v.0.2.2.tar.gz"
+  sha256 "4a82a5dc286624ef9baee2b42f4c340f4af3244116c14ba545fd931201fcdca9"
   license "MIT"
 
-  depends_on "rust" => :build
-  depends_on "python@3.12"
-
-  uses_from_macos "libxml2"
-  uses_from_macos "libxslt"
+  depends_on "python@3.14"
 
   resource "annotated-types" do
     url "https://files.pythonhosted.org/packages/ee/67/531ea369ba64dcff5ec9c3402f9f51bf748cec26dde048a2f973a4eea7f5/annotated_types-0.7.0.tar.gz"
