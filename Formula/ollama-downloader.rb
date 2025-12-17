@@ -2,15 +2,13 @@ class OllamaDownloader < Formula
   include Language::Python::Virtualenv
 
   desc "Library and Hugging Face model downloader for Ollama"
-  homepage "https://github.com/anirbanbasu/ollama-downloader"
-
-  url "https://github.com/anirbanbasu/ollama-downloader.git",
-      tag:      "v.0.2.2",
-      revision: "48416a39ac530b2e2ab7a2a86ef37268c8ef7735"
+  homepage "https://pypi.org/project/ollama-downloader/"
+  url "https://github.com/anirbanbasu/ollama-downloader/archive/refs/tags/v.0.2.2.tar.gz"
+  sha256 "4a82a5dc286624ef9baee2b42f4c340f4af3244116c14ba545fd931201fcdca9"
   license "MIT"
 
   depends_on "rust" => :build
-  depends_on "python@3.12"
+  depends_on "python@3.14"
 
   uses_from_macos "libxml2"
   uses_from_macos "libxslt"
