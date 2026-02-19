@@ -1,7 +1,7 @@
 class OllamaDownloader < Formula
-  deprecate! date: "2026-02-20", because: "will be eventually replaced by odir", replacement_formula: "odir"
-
   include Language::Python::Virtualenv
+
+  deprecate! date: "2026-02-20", because: "will be eventually replaced by odir", replacement_formula: "odir"
 
   desc "Library and Hugging Face model downloader for Ollama"
   homepage "https://pypi.org/project/ollama-downloader/"
