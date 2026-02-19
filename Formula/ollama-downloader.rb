@@ -1,5 +1,5 @@
 class OllamaDownloader < Formula
-  deprecate! date: "2026-02-19", because: "will be eventually replaced by odir", replacement_formula: "odir"
+  deprecate! date: "2026-02-20", because: "will be eventually replaced by odir", replacement_formula: "odir"
 
   include Language::Python::Virtualenv
 
