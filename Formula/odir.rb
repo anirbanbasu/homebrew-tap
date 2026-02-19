@@ -2,6 +2,7 @@ class Odir < Formula
   desc "Ollama Downloader in Rust (ODIR): a library and Hugging Face model downloader for Ollama"
   homepage "https://github.com/anirbanbasu/odir"
   url "https://github.com/anirbanbasu/odir.git", branch: "master"
+  version "0.1.0"
   license "MIT"
 
   depends_on "rust" => :build
