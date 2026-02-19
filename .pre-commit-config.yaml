@@ -21,6 +21,12 @@ repos:
     hooks:
       - id: brew-audit
         name: "Homebrew audit changed formulae"
-        entry: bash -c 'changed_files=$(git diff --name-only --cached); for f in $changed_files; do if [[ $f =~ \.rb$ ]]; then brew audit --strict $(basename "$f" .rb) || exit 1; fi; done'
+        entry: bash -c 'changed_files=$(git diff --name-only --cached); for f in $changed_files; do if [[ $f =~ \.rb$ ]]; then brew audit -v --tap anirbanbasu/homebrew-tap --debug --strict $(basename "$f" .rb) || exit 1; fi; done'
         language: system
         types: [ruby]
+      # Does the following contribute to any meaningful check?
+      # - id: brew-install-dry-run
+      #   name: "Homebrew install (dry-run) changed formulae"
+      #   entry: bash -c 'changed_files=$(git diff --name-only --cached); for f in $changed_files; do if [[ $f =~ \.rb$ ]]; then HOMEBREW_DEVELOPER=1 brew install -n $f || exit 1; fi; done'
+      #   language: system
+      #   types: [ruby]

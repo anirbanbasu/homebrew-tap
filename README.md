@@ -5,6 +5,7 @@ This tap contains formulae that can be installed on macOS and Linux through [the
 ## Available formulae
 
 - `ollama-downloader`: A library and Hugging Face model downloader for Ollama. See [project on Github](https://github.com/anirbanbasu/ollama-downloader).
+- `odir`: Ollama Downloader in Rust (ODIR) or _oh dear!_ is a successor to `ollama-downloader`. See [project on Github](https://github.com/anirbanbasu/odir).
 
 ## How do I install these formulae?
 
