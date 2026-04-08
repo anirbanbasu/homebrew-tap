@@ -1,9 +1,9 @@
 class Odir < Formula
   desc "Ollama Downloader in Rust (ODIR): a model downloader for Ollama"
   homepage "https://github.com/anirbanbasu/odir"
-  # version "0.1.0"
-  url "https://github.com/anirbanbasu/odir/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "fbdef18ad8456255d52a1de2788d62e68b8dee8fb1daa6df366c7fb867c0379d"
+  # version "0.1.1"
+  url "https://github.com/anirbanbasu/odir/archive/refs/tags/v0.1.1.tar.gz"
+  sha256 "fbae94d21d152da6c7e4a72b39c65b321a4ae35b57d69161986cce5ba86e4749"
   license "MIT"
 
   depends_on "rust" => :build
