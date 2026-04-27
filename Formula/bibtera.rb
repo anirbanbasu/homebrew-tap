@@ -3,7 +3,7 @@ class Bibtera < Formula
   homepage "https://github.com/anirbanbasu/bibtera"
   # version "0.1.0"
   url "https://github.com/anirbanbasu/bibtera/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "fbae94d21d152da6c7e4a72b39c65b321a4ae35b57d69161986cce5ba86e4749"
+  sha256 "667af4dec3da7fcbce9fc0c1b04118932dc4ca87ad76616dc9d94bb8e5d4aec5"
   license "MIT"
 
   depends_on "rust" => :build
