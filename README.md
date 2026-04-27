@@ -4,8 +4,9 @@ This tap contains formulae that can be installed on macOS and Linux through [the
 
 ## Available formulae
 
-- `ollama-downloader`: A library and Hugging Face model downloader for Ollama. See [project on Github](https://github.com/anirbanbasu/ollama-downloader).
+- `bibtera`: A BibTeX translator using the Tera templating engine. See [project on Github](https://github.com/anirbanbasu/bibtera).
 - `odir`: Ollama Downloader in Rust (ODIR) or _oh dear!_ is a successor to `ollama-downloader`. See [project on Github](https://github.com/anirbanbasu/odir).
+- `ollama-downloader`: A library and Hugging Face model downloader for Ollama. See [project on Github](https://github.com/anirbanbasu/ollama-downloader).
 
 ## How do I install these formulae?
 
