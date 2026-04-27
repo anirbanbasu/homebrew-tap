@@ -1,5 +1,5 @@
 class Bibtera < Formula
-  desc "A BibTeX translator using the Tera templating engine"
+  desc "BibTeX translator using the Tera templating engine"
   homepage "https://github.com/anirbanbasu/bibtera"
   # version "0.1.0"
   url "https://github.com/anirbanbasu/bibtera/archive/refs/tags/v0.1.0.tar.gz"
