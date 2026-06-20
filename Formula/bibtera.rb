@@ -1,8 +1,9 @@
 class Bibtera < Formula
   desc "BibTeX translator using the Tera templating engine"
   homepage "https://github.com/anirbanbasu/bibtera"
-  url "https://github.com/anirbanbasu/bibtera/archive/refs/tags/v0.1.1.tar.gz"
-  sha256 "212d4d71adad18c10eae74f1c90ee76e28429841554f41be4bad8b27976b8020"
+  # version "0.1.0"
+  url "https://github.com/anirbanbasu/bibtera/archive/refs/tags/v0.1.2.tar.gz"
+  sha256 "1d0a555fe9a97bd77cdf19838d34d0dd2cf20a3e5338b774c385621a08c8c67c"
   license "MIT"
 
   depends_on "rust" => :build

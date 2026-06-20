@@ -9,6 +9,11 @@ class OllamaDownloader < Formula
 
   deprecate! date: "2026-02-20", because: "will be eventually replaced by odir", replacement_formula: "odir"
 
+  bottle do
+    rebuild 1
+    sha256 cellar: :any, arm64_sequoia: "ac625e884bf443f1f702e03955f731fa91aca653466ad849ff084c4744962a6a"
+  end
+
   depends_on "rust" => :build
   depends_on "python@3.14"
 
