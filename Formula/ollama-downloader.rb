@@ -12,7 +12,7 @@ class OllamaDownloader < Formula
     sha256 cellar: :any, arm64_sequoia: "ac625e884bf443f1f702e03955f731fa91aca653466ad849ff084c4744962a6a"
   end
 
-  deprecate! date: "2026-02-20", because: "is no longer active (the repository has been archived) and has been replaced by odir", replacement_formula: "odir"
+  deprecate! date: "2026-02-20", because: "is no longer active", replacement_formula: "odir"
 
   depends_on "rust" => :build
   depends_on "python@3.14"
